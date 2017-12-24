@@ -1,0 +1,22 @@
+Discovering hosts using the mc method for 2 second(s) .... 518
+
+
+Environments:
+ production                     4
+     lb1.production.test.net
+     lb2.production.test.net
+     lb31.production.test.net
+     bleep.ops.test.net
+
+ gemstash                       2
+     gemstash1-bleep.ops.test.net
+     gemstash1-bloop.ops.test.net
+
+
+---- rpc stats ----
+           Nodes: 518 / 518
+     Pass / Fail: 518 / 0
+      Start Time: 2017-12-24 10:59:14 +0000
+  Discovery Time: 2001.94ms
+      Agent Time: 487.51ms
+      Total Time: 2489.45ms

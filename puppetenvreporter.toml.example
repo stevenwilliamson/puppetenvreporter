@@ -1,0 +1,5 @@
+# Slack token
+slack_api_token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# Channel to post to
+channel = "#general"
