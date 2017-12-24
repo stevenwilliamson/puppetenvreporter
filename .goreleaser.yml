@@ -1,0 +1,7 @@
+builds:
+  - binary: puppetenvreporter
+    goos:
+      - solaris
+    goarch:
+      - amd64
+
