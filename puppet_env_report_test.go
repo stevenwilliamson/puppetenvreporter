@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"os"
 	"strings"
 	"testing"
@@ -16,8 +15,7 @@ func TestParsePuppetReport(t *testing.T) {
 	if err != nil {
 		t.Errorf("Parsing report failed: %v", err)
 	}
-	if strings.Contains(string(report), "gemstash1-ash") != true {
+	if strings.Contains(string(report), "gemstash1-bleep") != true {
 		t.Errorf("Report does not contain expected data")
 	}
-	fmt.Printf("%s", string(report))
 }
